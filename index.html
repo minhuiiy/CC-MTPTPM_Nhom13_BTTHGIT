@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Nhóm 13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To-Do List</h1>
+        </header>
+        
+        <div class="input-group">
+            <input type="text" id="todo-input" placeholder="Nhập công việc...">
+            <button id="add-btn" type="submit">Thêm</button>
+            
+            <div class="select">
+                <select class="filter-todo">
+                    <option value="all">Tất cả</option>
+                    <option value="completed">Đã xong</option>
+                    <option value="uncompleted">Chưa xong</option>
+                </select>
+            </div>
+            </div>
+
+        <div class="todo-container">
+            <ul id="todo-list" class="todo-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
